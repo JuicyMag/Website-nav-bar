@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
 }
- 
+
 
 .navbar{
-  background-color:lightskyblue;
+  background-color:black;
   /* padding-right:0px ;
   padding-left: 0px; */
   width: 100%;
@@ -19,10 +19,13 @@
   justify-content:space-between;
 }
 
-.navlogo a{
-  font-size: 35px;
+.navlogo img {
+  width: 150px; */
+  height: 10px;
+  padding: 10px;
+  /* font-size: 35px; */
   font-weight: bold;
-  color: green;
+  color: black;
 }
 
 .navdiv li{
@@ -43,4 +46,31 @@ button{
   width: 70px;
   height: 25px;
   border: none;
+}
+
+.Body_Home{
+  /* color: red; */
+  background-color: pink;
+  font-weight: bold;
+}
+
+.Bass_blurb{
+  display: flex;
+  background-color: green;
+  width: 100%;
+  height: auto;
+}
+
+.Catfish_blurb{
+  display: flex;
+  background-color: teal;
+  width: 100%;
+  height: auto;
+}
+
+.Bluegill_blurb{
+  display: flex;
+  background-color: red;
+  width: 100%;
+  height: auto;
 }
